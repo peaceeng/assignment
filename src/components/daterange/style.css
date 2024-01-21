@@ -1,0 +1,10 @@
+.date-range-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-pickers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

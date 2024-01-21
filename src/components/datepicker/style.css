@@ -1,0 +1,74 @@
+.date-picker {
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 14.28%;
+  cursor: pointer;
+}
+
+.predefined {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+button {
+  outline: none;
+  border: none;
+  color: #1675e0;
+  background: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td.highlighted {
+  background-color: #e6f2ff;
+}
+
+td:first-child {
+  color: red;
+}
+
+td:last-child {
+  color: red;
+}
+
+.picker-header {
+  display: flex;
+}
+
+.current-month {
+  flex: 1;
+  font-weight: bold;
+}
+
+.picker-header {
+  padding: 10px;
+}
+
+.picker-header > span {
+  cursor: pointer;
+}
